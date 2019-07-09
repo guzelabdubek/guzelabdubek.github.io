@@ -1,0 +1,75 @@
+#owl1 {
+  width: 30%;
+  length: 30%;
+  float: right;
+  border: 10px solid grey;
+  margin: 1em;
+}
+h1 {
+  border: 10px solid Aqua;
+  border-style: groove;
+  text-align: center;
+}
+.blue_font {
+
+}
+.red_font {
+\
+}
+.green_font {
+
+}
+h3 {
+
+}
+body {
+  color: Fuchsia;
+  font-family: "Lucida Console";
+  background-color: black;
+  background-image: url("outru.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  border: 5px solid SpringGreen;
+  margin: 2em;
+  padding: 1em;
+}
+div {
+  background: rgba(0, 0, 0, 0.3);
+}
+p {
+  background: rgba(0, 0, 0, 0.3);
+}
+a {
+
+}
+#maze {
+
+}
+#mazetxt {
+
+}
+button {
+  font-family: "Lucida Console";
+  background-color: black;
+  color: Fuchsia;
+}
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+     0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px
+      #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 60px #ff4da6,
+    0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
