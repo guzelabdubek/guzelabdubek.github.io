@@ -9,6 +9,7 @@ h1 {
   border: 10px solid Aqua;
   border-style: groove;
   text-align: center;
+  padding: 1em;
 }
 .blue_font {
 
